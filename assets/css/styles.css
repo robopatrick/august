@@ -1,0 +1,512 @@
+body {
+    font-family: 'Barlow', sans-serif;
+    background-color: #f6f9fc;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-size: 1.9375rem;
+    font-weight: bold;
+    line-height: 1.23;
+    letter-spacing: normal;
+    margin-bottom: 1.25rem;
+}
+
+p {
+    margin-bottom: 1.25rem;
+}
+
+.robocorp-cloud-logo {
+    background: url(../images/logo.svg) no-repeat left top; 
+    background-size: cover;
+    width: 228px;
+    height: 34px;
+    padding: 0;
+}
+
+.bg-main {
+    background-color: #000000;
+}
+
+.site-navigation {
+    border-radius: 0;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+.site-navigation .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn {
+    font-family: 'Inter', sans-serif;
+}
+
+.header-cta {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    border: solid 0.0938rem #ffffff;
+    border-radius: 999px;
+    padding: 0.9375rem 1.25rem;
+    line-height: 1.125;
+    transition: .21s ease-in-out;
+}
+
+.header-cta:hover {
+    color: #fff;
+    text-decoration: none;
+    border-color: #8f48be;
+    background-color: #8f48be;
+}
+
+.rc-hero-section {
+    color: #f6f9fc;
+    padding-top: 1.375rem;
+    min-height: 640px;
+    position: relative;
+}
+
+.rc-hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.rc-hero-small {
+    font-size: 0.75rem;
+    font-weight: 900;
+    letter-spacing: 0.15rem;
+}
+
+.rc-hero-title {
+    font-size: 3.625rem;
+    font-weight: 800;
+    line-height: 1.03;
+    letter-spacing: normal;
+}
+
+.rc-hero-cta {
+    margin-top: 3.125rem;
+}
+
+.rc-hero-bg {
+    background: url(../images/rc-hero-bg.png) no-repeat;
+    width: 100%;
+    height: 546px;
+    position: absolute;
+    bottom: -340px;
+    left: 0;
+}
+
+.btn-primary {
+    background-color: #7850fa;
+    border-color: #7850fa;
+    padding: 0.5rem 1.5rem;
+}
+
+.btn-primary:hover {
+    background-color: #561faa;
+    border-color: #561faa;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #561faa;
+    border-color: #561faa;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(85, 72, 170,.5);
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    color: #fff;
+    background-color: #561faa;
+    border-color: #561faa;
+    box-shadow: 0 0 0 0.2rem rgba(85, 72, 170,.5);
+}
+
+.rc-bg-secondary {
+    background-color: #f6f9fc;
+}
+
+.rc-cc-section {
+    padding-top: 90px;
+    padding-bottom: 90px;;
+    font-size: 1.125rem;
+    line-height: 1.33;
+    color: #000000;
+    overflow: hidden;
+}
+
+.rc-cc-content {
+    position: relative;
+    z-index: 2;
+}
+
+.rc-cc-image {
+    position: relative;
+}
+
+.ul_check {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.ul_check li {
+    margin-bottom: 1.6875rem;
+    position: relative;
+    padding-left: 31px;
+    line-height: 1.2;
+}
+
+.ul_check li:before {
+    content: '\f00c';
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #561faa;
+    line-height: 20px;
+    font-size: 0.625rem;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 3px;
+}
+
+.rc-cc-fbox {
+    max-width: 361px;
+    color: #000000;
+    padding-bottom: 90px;
+}
+
+.rc-cc-fbox ul {
+    margin-top: 3rem;
+}
+
+.rc-rctrl-section {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.rc-rctrl-content {
+    padding: 39px 0 23px;
+}
+
+.rc-rctrl-content .ul_check {
+    font-weight: normal;
+}
+
+.rc-rctrl-content .ul_check li:before {
+    background-color: #d4c2e8;
+    color: #000000;
+}
+
+.rc-rctrl-image {
+    margin-top: -10px;
+    margin-bottom: -9px;
+}
+
+.apps-list {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.apps-list a {
+    color: #ffffff;
+    font-size: 1.2188rem;
+    line-height: 1.23;
+    margin-right: 1.1875rem;
+}
+
+.apps-list a .fab {
+    margin-left: 0.625rem;
+}
+
+.apps-list a:last-child {
+    margin-right: 0;
+}
+
+.rc-au-section {
+    padding: 50px 0;
+}
+
+.rc-au-image {
+    background: url(../images/rc-au-bg.svg) no-repeat top center;
+    background-size: 100%;
+}
+
+.rc-au-intro {
+    max-width: 650px;
+    margin: 0 auto 1.5625rem auto;
+    text-align: center;
+}
+
+.rc-au-section .apps-list {
+    max-width: 885px;
+    margin: 0 auto;
+    padding-top: 1.5625rem;
+}
+
+.rc-au-section .apps-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rc-au-section .apps-list ul li {
+    padding: 0 0.9375rem 3.125rem 0.9375rem;
+    text-align: center;
+    border-right: 1px solid rgba(0,0,0,.2);
+}
+
+.rc-au-section .apps-list ul li:last-child {
+    border-right: 0;
+}
+
+.rc-au-section .apps-list a {
+    font-size: 1.2188rem;
+    font-weight: 500;
+    line-height: 1.23;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.site-footer {
+    padding: 50px 0;
+}
+
+.site-footer .copyrights {
+    font-size: 0.875rem;
+}
+
+.footer-links {
+    color: #002642;
+
+}
+
+.footer-links a {
+    color: #002642;
+}
+
+.footer-links .fl-col {
+    padding-bottom: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer-links .fl-col h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    margin-bottom: 1.25rem;
+}
+
+.footer-links .fl-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+    font-size: 0.875rem;    
+}
+
+.footer-links .fl-col ul li {
+    margin-bottom: 24px;
+}
+
+@media screen and (max-width: 1199.98px) {
+    .rc-hero-section {
+        padding-top: 110px;
+    }
+
+    .site-header {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 99;
+        min-height: 84px;
+    }
+
+    .site-navigation.navbar-dark {
+        background-color: transparent;
+    }
+    
+    .site-navigation.navbar-dark .navbar-toggler {
+        border: 0;
+        color: white;
+        background-color: #561faa;
+        border-radius: 50%;
+        width: 46px;
+        height: 44px;
+        padding: 0;
+        margin-left: 1.25rem;
+    }
+
+    .site-navigation.navbar-dark .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
+    .site-navigation .navbar-nav {
+        background: #300a61;
+        text-align: center;
+        padding: 20px 0;
+        max-width: 200px;
+        margin-top: 15px;
+        border-radius: 10px;
+        box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075);
+    }
+
+    .header-cta {
+        padding: 0.5625rem 1.5rem 0.6875rem 1.5rem;
+    }
+
+    .rc-cc-section {
+        padding-bottom: 0;
+    }
+
+    .rc-rctrl-image {
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .rc-rctrl-content {
+        max-width: 650px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .rc-hero-content {
+        text-align: center;
+    }
+    
+    .rc-hero-bg {
+        height: 250px;
+        bottom: -80px;
+    }
+
+    .rc-cc-fbox {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .rc-cc-fbox ul {
+        display: inline-block;
+        margin-top: 1.5rem;
+    }
+
+    .rc-cc-fbox ul li {
+        text-align: left;
+    }
+
+    .rc-cc-image {
+        position: relative;
+        right: -30px;
+        text-align: center;
+    }
+
+    .rc-cc-content {
+        text-align: center;
+        max-width: 530px;
+        margin: 0 auto 30px auto;
+    }
+
+    .rc-cc-content ul {
+        display: inline-block;
+        padding-top: 24px;
+    }
+
+    .rc-cc-content ul li {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .footer-links .fl-col {
+        width: 33.3333%;
+    }
+}
+
+
+@media screen and (max-width: 575.98px) {
+    .rc-au-section .apps-list ul {
+        border-bottom: 1px solid rgba(0,0,0, .2);
+        padding-bottom: 1rem;
+    }
+
+    .rc-au-section .apps-list ul li {
+        border-right: 0;
+        border-top: 1px solid rgba(0,0,0, .2);
+        padding-bottom: 0;
+        padding-top: 1rem;
+        margin-top: 1rem;
+    }
+
+    .rc-hero-title {
+        font-size: 2.75rem;
+    }
+
+    .rc-cc-image {
+        right: -10px;
+    }
+
+    .robocorp-cloud-logo {
+        width: 160px;
+        height: 24px;
+    }
+
+    .header-cta {
+        font-size: 0.8125rem;
+        padding: 0.4375rem 0.9375rem 0.5625rem 0.9375rem;
+    }
+
+    .site-navigation.navbar-dark .navbar-toggler {
+        width: 32px;
+        height: 32px;
+        font-size: 0.875rem;
+        margin-left: 10px;
+    }
+
+    .rc-hero-section {
+        min-height: 480px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .site-navigation .navbar-nav .nav-item {
+        margin-right: 1.75rem;
+    }
+
+    .container {
+        max-width: 1280px;
+    }
+
+    .rc-rctrl-section .container {
+        max-width: 1440px;
+    }
+
+    .rc-rctrl-content {
+        max-width: 380px;
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    .rc-cc-image {
+        margin-right: -100px;
+    }
+}
